@@ -1,0 +1,181 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.na{
+    text-align: center;
+    font-size: 3em;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.home{
+
+    display: grid;
+    grid-template-areas: 
+    "n n n n n n"
+    "n n n n n n"
+    "n n n n n n"
+    "n n n n n n"
+    "n n n n n n"
+    "n n n n n n";
+    height: 900px;
+    width: auto;
+}
+
+.name{
+    grid-area: n;
+    background-color: gold;
+    display: grid;
+    grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". pra pra ."
+    ". pra2 pra2 ."
+    ". . . ."
+    ". . . .";
+  
+}
+.pra
+{
+    border: 9px sandybrown;
+    font-size: 3em;
+    text-align: center;
+grid-area: pra;
+  
+   
+}
+
+
+
+.pra2
+{
+    border: 9px sandybrown;
+    font-size: 2em;
+    text-align: center;
+    grid-area: pra2;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-areas:
+    "w w w w w w"
+    "w w w w w w"
+    "w w w w w w"
+    "w w w w w w"
+    "w w w w w w"
+    "w w w w w w";
+    height: 900px;
+    width: auto;
+}
+.work{
+    grid-area: w;
+background-color: red;
+font-size: 3em;
+height: 900px;
+width: auto;
+display: grid;
+grid-template-areas: 
+". . . . . ."
+". . . . . ."
+". . an an . . "
+" . . sh sh . ."
+". . . . . ."
+". . . . . .";
+
+}
+.anime{
+    grid-area: an;
+   
+    background-color: pink;
+    text-align: center;
+    
+}
+
+.school{
+    grid-area: sh;
+   
+    background-color: darkslategray;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.skills{
+    display: grid;
+    grid-template-areas: 
+    ". . . . . ."
+    ". . . . . ."
+    "s s s s s s"
+    "s s s s s s"
+    ". . . . . ."
+    ". . . . . .";
+    height: 900px;
+    width: auto;
+}
+.skillcon{
+    grid-area: s;
+    background-color: green;
+    display: grid;
+    grid-template-areas: 
+    "p . . b"
+    ". . . ."
+    ". . . ."
+    "j . . e";
+    height: 1200px;
+    width: auto;
+}
+
+.pop{
+    grid-area: p;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.bootstarp{
+    grid-area: b;
+    font-size: 3em;
+    text-align: center;
+}
+
+.java{
+    grid-area: j;
+    font-size: 3em;
+    text-align: center;
+}
+
+.extra{
+    grid-area: e;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+.footer
+{
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding-top: 16em;
+}
+
+
+.img{
+    width: 150px;
+    height: 150px;
+}
